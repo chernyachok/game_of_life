@@ -80,7 +80,7 @@ class Grid {
       for(let j= 0; j<this.size; j++){
         let cell = this.cells[i][j]
         if(cell.isAlive){
-          output += '⬜'
+          output += '🆗'
         }else {
           output+= ' '
         }
